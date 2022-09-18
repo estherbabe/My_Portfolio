@@ -25,13 +25,13 @@ const Home = () => {
 
           <div>
             <button
-              className="text-white w-fit px-6 py-3 my-2 
+              className="group text-white w-fit px-6 py-3 my-2 
             flex items-center rounded-md bg-gradient-to-r
              from-purple-500 to-fuchsia-500 cursor-pointer"
             >
               Porfolio
-              <span className="hover:rotate-90 duration-300">
-                <MdOutlineKeyboardArrowRight />
+              <span className="group-hover:rotate-90 duration-300">
+                <MdOutlineKeyboardArrowRight size={25} className="ml-1" />
               </span>
             </button>
           </div>
